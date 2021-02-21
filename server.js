@@ -121,7 +121,7 @@ app.use(route(function(router) {
 
   // add documents
 
-  router.post('/documents', function(request, response) {
+  router.post('/dump', function(request, response) {
     return documentHandler.handlePost(request, response);
   });
 

@@ -1,11 +1,11 @@
 {
 
   "host": "0.0.0.0",
-  "port": 7777,
+  "port": 80,
 
-  "keyLength": 10,
+  "keyLength": 7,
 
-  "maxLength": 400000,
+  "maxLength": 40000000,
 
   "staticMaxAge": 86400,
 
@@ -26,8 +26,8 @@
   "rateLimits": {
     "categories": {
       "normal": {
-        "totalRequests": 500,
-        "every": 60000
+        "totalRequests": 10,
+        "every": 120000
       }
     }
   },
@@ -39,5 +39,4 @@
   "documents": {
     "about": "./about.md"
   }
-
 }

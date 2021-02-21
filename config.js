@@ -26,7 +26,7 @@
   "rateLimits": {
     "categories": {
       "normal": {
-        "totalRequests": 10,
+        "totalRequests": 100,
         "every": 120000
       }
     }
